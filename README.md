@@ -1,4 +1,5 @@
 # mech-shop
+It's just frontend
 
 ## Project setup
 ```
