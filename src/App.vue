@@ -1,0 +1,22 @@
+<template>
+  <HeaderCom/>
+    <router-view/>
+  <FooterCom/>
+</template>
+
+
+<script setup>
+import FooterCom from './components/FooterCom.vue'
+import HeaderCom from './components/HeaderCom.vue'
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>

@@ -1,0 +1,690 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Quản Trị Viên",
+      "phone": "0901234567",
+      "username": "admin",
+      "password": "123456",
+      "address": "123 Đường ABC, Quận 1, TP.HCM",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "fullName": "Nguyễn Văn A",
+      "username": "customer1",
+      "password": "123456",
+      "role": "customer",
+      "phone": "0987654321",
+      "address": "456 Đường XYZ, Quận 2, TP.HCM"
+    },
+    {
+      "id": "0b1a",
+      "fullName": "Dinh Ky",
+      "phone": "222222222222222",
+      "username": "dinhky",
+      "password": "123456",
+      "address": "653 Đường ABC, Quận 1, TP.HCM",
+      "role": "customer"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Figure Anime"
+    },
+    {
+      "id": "2",
+      "name": "Gundam (Gunpla)"
+    },
+    {
+      "id": "3",
+      "name": "Merchandise"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "categoryId": 2,
+      "name": "HG Gundam Aerial Rebuild",
+      "price": 450000,
+      "image": "HG Gundam Aerial Rebuild.jpg",
+      "description": "Mô hình chính hãng Bandai từ series Witch from Mercury.",
+      "stock": 15,
+      "rating": 5,
+      "isHot": true,
+      "sold": 669
+    },
+    {
+      "id": "2",
+      "categoryId": 1,
+      "name": "Nendoroid Hatsune Miku",
+      "price": 1200000,
+      "image": "Nendoroid Hatsune Miku.jpg",
+      "description": "Phiên bản 2.0 với nhiều biểu cảm khuôn mặt.",
+      "stock": 5,
+      "rating": 4.5,
+      "isHot": true,
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Standard Ver",
+          "extraPrice": 0,
+          "stock": 3
+        },
+        {
+          "id": "v2",
+          "label": "Anniversary Edition",
+          "extraPrice": 350000,
+          "stock": 2
+        }
+      ],
+      "sold": 129
+    },
+    {
+      "id": "3",
+      "categoryId": 3,
+      "name": "Móc khóa One Piece - Luffy",
+      "price": 85000,
+      "image": "Móc khóa One Piece - Luffy.jpg",
+      "description": "Chất liệu mica cao cấp, bền màu.",
+      "stock": 0,
+      "rating": 4,
+      "isHot": false,
+      "sold": 40
+    },
+    {
+      "id": "4",
+      "categoryId": 2,
+      "name": "MG Gundam Barbatos",
+      "price": 1100000,
+      "image": "MG Gundam Barbatos.jpg",
+      "description": "Master Grade với khung xương linh hoạt.",
+      "stock": 8,
+      "rating": 5,
+      "isHot": true,
+      "variants": [
+        {
+          "id": "v1",
+          "label": "No Coating",
+          "extraPrice": 0,
+          "stock": 5
+        },
+        {
+          "id": "v2",
+          "label": "Titanium Finish",
+          "extraPrice": 900000,
+          "stock": 3
+        }
+      ],
+      "sold": 774
+    },
+    {
+      "id": "5",
+      "categoryId": 1,
+      "name": "Pop Up Parade Power",
+      "price": 950000,
+      "image": "Pop Up Parade Power.jpg",
+      "description": "Nhân vật Power trong Chainsaw Man.",
+      "stock": 12,
+      "rating": 4.8,
+      "isHot": true,
+      "sold": 296
+    },
+    {
+      "id": "6",
+      "categoryId": 2,
+      "name": "RG Hi-Nu Gundam",
+      "price": 1350000,
+      "image": "RG Hi-Nu Gundam.jpg",
+      "description": "Chi tiết siêu nhỏ gọn, độ tách màu cực tốt.",
+      "stock": 3,
+      "rating": 5,
+      "isHot": true,
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Kèm Decal nước",
+          "extraPrice": 60000,
+          "stock": 3
+        }
+      ],
+      "sold": 265
+    },
+    {
+      "id": "7",
+      "categoryId": 3,
+      "name": "Poster Spy x Family",
+      "price": 150000,
+      "image": "Poster Spy x Family.jpg",
+      "description": "Poster khổ A2 trang trí phòng cực đẹp.",
+      "stock": 50,
+      "rating": 4.2,
+      "isHot": false,
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Giấy lụa",
+          "extraPrice": 0,
+          "stock": 30
+        },
+        {
+          "id": "v2",
+          "label": "Tráng gương",
+          "extraPrice": 100000,
+          "stock": 20
+        }
+      ],
+      "sold": 243
+    },
+    {
+      "id": "8",
+      "categoryId": 1,
+      "name": "Scale Rem 1/7 Crystal Dress",
+      "price": 8500000,
+      "image": "Scale Rem 1.7 Crystal Dress.jpg",
+      "description": "Figure cao cấp dành cho người sưu tầm.",
+      "stock": 2,
+      "rating": 5,
+      "isHot": true,
+      "sold": 157
+    },
+    {
+      "id": "9",
+      "categoryId": 3,
+      "name": "Bình nước Jujutsu Kaisen",
+      "price": 250000,
+      "image": "Bình nước Jujutsu Kaisen.jpg",
+      "description": "Dung tích 500ml, giữ nhiệt tốt.",
+      "stock": 20,
+      "rating": 4.5,
+      "isHot": false,
+      "sold": 769
+    },
+    {
+      "id": "10",
+      "categoryId": 2,
+      "name": "Entry Grade RX-78-2",
+      "price": 180000,
+      "image": "Entry Grade RX-78-2.jpg",
+      "description": "Dễ lắp ráp, không cần kìm chuyên dụng.",
+      "stock": 30,
+      "rating": 4.7,
+      "isHot": false,
+      "sold": 119
+    },
+    {
+      "id": "11",
+      "categoryId": 1,
+      "name": "Figma Tanjiro Kamado",
+      "price": 1850000,
+      "image": "Figma Tanjiro Kamado.jpg",
+      "description": "Figure có khớp cử động linh hoạt.",
+      "stock": 7,
+      "rating": 4.9,
+      "isHot": true,
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Standard",
+          "extraPrice": 0,
+          "stock": 5
+        },
+        {
+          "id": "v2",
+          "label": "DX Edition",
+          "extraPrice": 550000,
+          "stock": 2
+        }
+      ],
+      "sold": 707
+    },
+    {
+      "id": "12",
+      "categoryId": 2,
+      "name": "PG Unleashed RX-78-2",
+      "price": 6500000,
+      "image": "PG Unleashed RX-78-2.jpg",
+      "description": "Đỉnh cao của dòng Gunpla, tỷ lệ 1/60.",
+      "stock": 1,
+      "rating": 5,
+      "isHot": true,
+      "sold": 773
+    },
+    {
+      "id": "13",
+      "categoryId": 3,
+      "name": "Áo khoác Akatsuki",
+      "price": 450000,
+      "image": "Áo khoác Akatsuki.jpg",
+      "description": "Áo khoác thêu mây đỏ tỉ mỉ.",
+      "stock": 15,
+      "rating": 4.6,
+      "isHot": true,
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Size M",
+          "extraPrice": 0,
+          "stock": 10
+        },
+        {
+          "id": "v2",
+          "label": "Size L",
+          "extraPrice": 0,
+          "stock": 5
+        },
+        {
+          "id": "v3",
+          "label": "Size XL",
+          "extraPrice": 20000,
+          "stock": 0
+        }
+      ],
+      "sold": 573
+    },
+    {
+      "id": "14",
+      "categoryId": 1,
+      "name": "Nendoroid Denji",
+      "price": 1300000,
+      "image": "Nendoroid Denji.jpg",
+      "description": "Đi kèm hiệu ứng cưa máy và Pochita.",
+      "stock": 0,
+      "rating": 4.8,
+      "isHot": false,
+      "sold": 104
+    },
+    {
+      "id": "15",
+      "categoryId": 2,
+      "name": "MGSD Freedom Gundam",
+      "price": 1150000,
+      "image": "MGSD Freedom Gundam.jpg",
+      "description": "Dòng SD cao cấp với chi tiết như MG.",
+      "stock": 6,
+      "rating": 4.9,
+      "isHot": true,
+      "sold": 619
+    },
+    {
+      "id": "16",
+      "categoryId": 3,
+      "name": "Bộ bài Tarot Genshin Impact",
+      "price": 320000,
+      "image": "Bộ bài Tarot Genshin Impact.jpg",
+      "description": "78 lá bài in hình nhân vật Genshin.",
+      "stock": 25,
+      "rating": 4.3,
+      "isHot": false,
+      "sold": 447
+    },
+    {
+      "id": "17",
+      "categoryId": 1,
+      "name": "Figure Zoro Asura 1/6",
+      "price": 4200000,
+      "image": "Figure Zoro Asura 1.6.jpg",
+      "description": "Mô hình Zoro trạng thái tam kiếm phái.",
+      "stock": 4,
+      "rating": 5,
+      "isHot": true,
+      "sold": 47
+    },
+    {
+      "id": "18",
+      "categoryId": 2,
+      "name": "HG Calibarn Gundam",
+      "price": 520000,
+      "image": "HG Calibarn Gundam.jpg",
+      "description": "Mẫu gundam trắng tinh khôi cực hot.",
+      "stock": 10,
+      "rating": 4.8,
+      "isHot": true,
+      "sold": 45
+    },
+    {
+      "id": "19",
+      "categoryId": 3,
+      "name": "Gối ôm Totoro",
+      "price": 280000,
+      "image": "Gối ôm Totoro.jpg",
+      "description": "Gối bông mềm mại, kích thước 40cm.",
+      "stock": 18,
+      "rating": 4.4,
+      "isHot": false,
+      "variants": [
+        {
+          "id": "v1",
+          "label": "40cm",
+          "extraPrice": 0,
+          "stock": 10
+        },
+        {
+          "id": "v2",
+          "label": "60cm",
+          "extraPrice": 150000,
+          "stock": 8
+        }
+      ],
+      "sold": 110
+    },
+    {
+      "id": "20",
+      "categoryId": 1,
+      "name": "Pop Up Parade Gojo Satoru",
+      "price": 950000,
+      "image": "Pop Up Parade Gojo Satoru.jpg",
+      "description": "Thầy Gojo trong tư thế thi triển Vô Hạn.",
+      "stock": 9,
+      "rating": 4.9,
+      "isHot": true,
+      "sold": 238
+    },
+    {
+      "id": "21",
+      "categoryId": 2,
+      "name": "SD Gundam EX-Standard Nu",
+      "price": 180000,
+      "image": "SD Gundam EX-Standard Nu.jpg",
+      "description": "Mô hình nhỏ gọn, phù hợp trang trí bàn làm việc.",
+      "stock": 40,
+      "rating": 4.1,
+      "isHot": false,
+      "sold": 253
+    },
+    {
+      "id": "22",
+      "categoryId": 3,
+      "name": "Túi Tote Attack on Titan",
+      "price": 120000,
+      "image": "Túi Tote Attack on Titan.jpg",
+      "description": "Túi vải canvas in logo Trinh Sát Đoàn.",
+      "stock": 35,
+      "rating": 4.5,
+      "isHot": false,
+      "sold": 532
+    },
+    {
+      "id": "23",
+      "categoryId": 1,
+      "name": "Scale Nezuko 1/8",
+      "price": 3500000,
+      "image": "Scale Nezuko 1.8.jpg",
+      "description": "Nezuko phiên bản chiến đấu cực đẹp.",
+      "stock": 3,
+      "rating": 4.9,
+      "isHot": true,
+      "sold": 631
+    },
+    {
+      "id": "24",
+      "categoryId": 2,
+      "name": "RG Sazabi",
+      "price": 1250000,
+      "image": "RG Sazabi.jpg",
+      "description": "Mẫu RG đồ sộ nhất, độ chi tiết kinh ngạc.",
+      "stock": 5,
+      "rating": 5,
+      "isHot": true,
+      "sold": 42
+    },
+    {
+      "id": "25",
+      "categoryId": 3,
+      "name": "Lót chuột XXL Solo Leveling",
+      "price": 220000,
+      "image": "Lót chuột XXL Solo Leveling.jpg",
+      "description": "Bề mặt speed, kích thước 900x400mm.",
+      "stock": 12,
+      "rating": 4.7,
+      "isHot": true,
+      "sold": 589
+    },
+    {
+      "id": "26",
+      "categoryId": 1,
+      "name": "Nendoroid Anya Forger",
+      "price": 1450000,
+      "image": "Nendoroid Anya Forger.jpg",
+      "description": "Có khuôn mặt 'Heh' kinh điển.",
+      "stock": 0,
+      "rating": 4.9,
+      "isHot": false,
+      "sold": 218
+    },
+    {
+      "id": "27",
+      "categoryId": 2,
+      "name": "MG Eclipse Gundam",
+      "price": 1200000,
+      "image": "MG Eclipse Gundam.jpg",
+      "description": "Khả năng biến hình phi thuyền độc đáo.",
+      "stock": 4,
+      "rating": 4.6,
+      "isHot": false,
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Kèm Raijin Pack",
+          "extraPrice": 800000,
+          "stock": 1
+        },
+        {
+          "id": "v2",
+          "label": "Bản gốc",
+          "extraPrice": 0,
+          "stock": 3
+        }
+      ],
+      "sold": 748
+    },
+    {
+      "id": "28",
+      "categoryId": 3,
+      "name": "Ví cầm tay Demon Slayer",
+      "price": 190000,
+      "image": "Ví cầm tay Demon Slayer.jpg",
+      "description": "Họa tiết Haori của các trụ cột.",
+      "stock": 22,
+      "rating": 4.2,
+      "isHot": false,
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Tanjiro",
+          "extraPrice": 0,
+          "stock": 10
+        },
+        {
+          "id": "v2",
+          "label": "Zenitsu",
+          "extraPrice": 0,
+          "stock": 5
+        },
+        {
+          "id": "v3",
+          "label": "Nezuko",
+          "extraPrice": 0,
+          "stock": 7
+        }
+      ],
+      "sold": 680
+    },
+    {
+      "id": "29",
+      "categoryId": 1,
+      "name": "Figure Son Goku Ultra Instinct",
+      "price": 750000,
+      "image": "Figure Son Goku Ultra Instinct.jpg",
+      "description": "Dòng Blood of Saiyans chất lượng cao.",
+      "stock": 14,
+      "rating": 4.8,
+      "isHot": true,
+      "sold": 733
+    },
+    {
+      "id": "30",
+      "categoryId": 2,
+      "name": "HG Moon Gundam",
+      "price": 700000,
+      "image": "HG Moon Gundam.jpg",
+      "description": "Mẫu HG có độ chi tiết ngang ngửa RG.",
+      "stock": 7,
+      "rating": 4.9,
+      "isHot": false,
+      "sold": 573
+    }
+  ],
+  "orders": [
+    {
+      "id": "2",
+      "userId": "0b1a",
+      "customerName": "Dinh Ky",
+      "phone": "222222222222222",
+      "address": "653 Đường ABC, Quận 1, TP.HCM",
+      "items": [
+        {
+          "id": "4-v1",
+          "categoryId": 2,
+          "name": "MG Gundam Barbatos (No Coating)",
+          "price": 1100000,
+          "image": "MG Gundam Barbatos.jpg",
+          "description": "Master Grade với khung xương linh hoạt.",
+          "stock": 5,
+          "rating": 5,
+          "isHot": true,
+          "variants": [
+            {
+              "id": "v1",
+              "label": "No Coating",
+              "extraPrice": 0,
+              "stock": 5
+            },
+            {
+              "id": "v2",
+              "label": "Titanium Finish",
+              "extraPrice": 900000,
+              "stock": 3
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 1100000,
+      "status": "cancelled",
+      "createdAt": "26/3/2026"
+    },
+    {
+      "id": "4",
+      "userId": null,
+      "customerName": "1",
+      "phone": "1",
+      "address": "1",
+      "items": [
+        {
+          "id": "7-v1",
+          "categoryId": 3,
+          "name": "Poster Spy x Family (Giấy lụa)",
+          "price": 150000,
+          "image": "Poster Spy x Family.jpg",
+          "description": "Poster khổ A2 trang trí phòng cực đẹp.",
+          "stock": 30,
+          "rating": 4.2,
+          "isHot": false,
+          "variants": [
+            {
+              "id": "v1",
+              "label": "Giấy lụa",
+              "extraPrice": 0,
+              "stock": 30
+            },
+            {
+              "id": "v2",
+              "label": "Tráng gương",
+              "extraPrice": 100000,
+              "stock": 20
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 150000,
+      "status": "completed",
+      "createdAt": "26/3/2026"
+    },
+    {
+      "id": "5",
+      "userId": "1",
+      "customerName": "Quản Trị Viên",
+      "phone": "0901234567",
+      "address": "123 Đường ABC, Quận 1, TP.HCM",
+      "items": [
+        {
+          "id": "5",
+          "categoryId": 1,
+          "name": "Pop Up Parade Power",
+          "price": 950000,
+          "image": "Pop Up Parade Power.jpg",
+          "description": "Nhân vật Power trong Chainsaw Man.",
+          "stock": 12,
+          "rating": 4.8,
+          "isHot": true,
+          "quantity": 1
+        }
+      ],
+      "total": 950000,
+      "status": "completed",
+      "createdAt": "26/3/2026"
+    },
+    {
+      "id": "6",
+      "userId": "0b1a",
+      "customerName": "Dinh Ky",
+      "phone": "222222222222222",
+      "address": "653 Đường ABC, Quận 1, TP.HCM",
+      "items": [
+        {
+          "id": "24",
+          "categoryId": 2,
+          "name": "RG Sazabi",
+          "price": 1250000,
+          "image": "RG Sazabi.jpg",
+          "description": "Mẫu RG đồ sộ nhất, độ chi tiết kinh ngạc.",
+          "stock": 5,
+          "rating": 5,
+          "isHot": true,
+          "quantity": 1
+        }
+      ],
+      "total": 1250000,
+      "status": "cancelled",
+      "createdAt": "26/3/2026"
+    },
+    {
+      "id": "7",
+      "userId": "0b1a",
+      "customerName": "Dinh Ky",
+      "phone": "222222222222222",
+      "address": "653 Đường ABC, Quận 1, TP.HCM",
+      "items": [
+        {
+          "id": "24",
+          "categoryId": 2,
+          "name": "RG Sazabi",
+          "price": 1250000,
+          "image": "RG Sazabi.jpg",
+          "description": "Mẫu RG đồ sộ nhất, độ chi tiết kinh ngạc.",
+          "stock": 4,
+          "rating": 5,
+          "isHot": true,
+          "quantity": 1
+        }
+      ],
+      "total": 1250000,
+      "status": "cancelled",
+      "createdAt": "26/3/2026"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
